@@ -18,7 +18,7 @@ import java.util.Random;
 public class MainActivity extends AppCompatActivity {
     private int playerScore = 0;
     private int cpuScore = 0;
-    Random rand = new Random;
+    Random rand = new Random();
 
     public enum Weapon {
         ROCK("Rock"),
